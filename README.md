@@ -1,0 +1,2 @@
+# DNSBlocklist
+## Private's DNSBlocklist
