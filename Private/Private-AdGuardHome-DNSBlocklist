@@ -99,6 +99,9 @@ wx.qlogo.cn$badfilter
 ! 禁止加载成人网站！！！
 ||xvideos.com^$important
 ||xhamster.com^$important
+||x.com^$important
+||xx.com^$important
+||xxx.com^$important
 ||xnxx.com^$important
 ||pornhub.com^$important
 ||redtube.com^$important
@@ -129,6 +132,7 @@ wx.qlogo.cn$badfilter
 ||perfectgirls.com^$important
 ||xtube.com^$important
 ||nuvid.com^$important
+||njav.tv^$important
 ||nudevista.com^$important
 ||video-one.com^$important
 ||porntube.com^$important
