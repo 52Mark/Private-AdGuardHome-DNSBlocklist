@@ -1,8 +1,8 @@
 # Power By 52Mark
 ## 更新时间随机
 ### 首次更新时间 202308191700
-#### 后续更新时间 202308222300
-##### 拦截或允许规则总数 245
+#### 后续更新时间 202308231650
+##### 拦截或允许规则总数 246
 
 ############################################################ Host 相关 ############################################################
 # HOST或其他
@@ -277,6 +277,7 @@ wx.qlogo.cn$badfilter
 ||javcup.com^$important
 ||faapy.com^$important
 ||hs188.xyz^$important
+||vaginacontest.com^$important
 ! 禁止加载成人漫画！！！
 ||dm.mmlu.asia^$important
 ||b.mmlu.service^$important
