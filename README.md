@@ -1,2 +1,2 @@
-# DNSBlocklist
-## Private's DNSBlocklist
+# DNS Blocklist
+## Private's DNS Blocklist
