@@ -1,8 +1,8 @@
 # Power By 52Mark
 ## 更新时间随机
 ### 首次更新时间 202308191700
-#### 后续更新时间 202309061057
-##### 拦截或允许规则总数 254
+#### 后续更新时间 202309061100
+##### 拦截或允许规则总数 256
 
 ############################################################ Host 相关 ############################################################
 # HOST或其他
@@ -73,6 +73,8 @@
 @@||whoer.net^$important
 ! 修正astrill.com无法正常打开问题
 @@||astrill.com^$important
+! 修正surfshark.com无法正常打开问题
+@@||surfshark.com^$important
 ! 修正安卓端酷狗音乐无法正常播放音乐问题
 @@||gateway.kugou.com^$important
 @@||gateway3.kugou.com^$important
@@ -103,8 +105,10 @@
 wx.qlogo.cn$badfilter
 ! 对前序规则（||whoer.net^）进行禁用或禁止，以修正whoer.net无法正常打开问题
 ||whoer.net^$badfilter
-! 对前序规则（||astrill.com^）进行禁用或禁止，以修正whoer.net无法正常打开问题
+! 对前序规则（||astrill.com^）进行禁用或禁止，以修正astrill.com无法正常打开问题
 ||astrill.com^$badfilter
+! 对前序规则（||surfshark.com^）进行禁用或禁止，以修正surfshark.com无法正常打开问题
+||surfshark.com^$badfilter
 ! 对前序规则（||gateway.kugou.com^、||gatewayretry.kugou.com^、||gateway3.kugou.com^）进行禁用或禁止，以修正安卓端酷狗音乐无法正常播放歌曲问题
 ||gateway.kugou.com^$badfilter
 ||gateway3.kugou.com^$badfilter
