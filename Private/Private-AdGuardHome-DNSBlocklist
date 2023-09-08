@@ -79,6 +79,8 @@
 @@||gateway.kugou.com^$important
 @@||gateway3.kugou.com^$important
 @@||gatewayretry.kugou.com^$important
+! 修正.top类域名因前序规则（||top^$denyallow=caitlin.top|corriente.top|gdtot.top|nicenature.top|reminder.top|magocoro.top|castlevania.top|suiten.top|shucks.top|1stream.top|ambr.top|techblog.top|changlam10.top|changlam11.top|pdcdn1.top|mastodon.top|pressplay.top|chillx.top|strims.top|thedesk.top|audioforyou.top）导致的无法打开问题
+# 待定
 # 拦截项
 ! 拦截微信公众号广告
 ||wxsnsdy.wxs.qq.com^$important
