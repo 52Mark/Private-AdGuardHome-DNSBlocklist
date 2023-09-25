@@ -2,51 +2,8 @@
 ## 更新时间随机
 ### 首次更新时间 202308191700
 #### 后续更新时间 202309241746
-##### 拦截或允许规则总数 260
+##### 拦截或允许规则总数 221
 
-############################################################ Host 相关 ############################################################
-# HOST或其他
-! AdGuard订阅链接加速
-37.19.202.35 filters.adtidy.org
-84.17.57.3 filters.adtidy.org
-84.17.57.4 filters.adtidy.org
-84.17.57.6 filters.adtidy.org
-84.17.57.7 filters.adtidy.org
-89.187.160.21 filters.adtidy.org
-89.187.160.22 filters.adtidy.org
-89.187.160.27 filters.adtidy.org
-89.187.160.28 filters.adtidy.org
-89.187.160.30 filters.adtidy.org
-89.187.160.31 filters.adtidy.org
-89.187.162.134 filters.adtidy.org
-89.187.162.143 filters.adtidy.org
-89.187.162.155 filters.adtidy.org
-89.187.187.11 filters.adtidy.org
-89.187.187.12 filters.adtidy.org
-89.187.187.14 filters.adtidy.org
-89.187.187.15 filters.adtidy.org
-89.187.187.19 filters.adtidy.org
-89.187.187.20 filters.adtidy.org
-138.199.57.67 filters.adtidy.org
-143.244.51.206 filters.adtidy.org
-143.244.51.207 filters.adtidy.org
-143.244.62.6 filters.adtidy.org
-156.146.53.12 filters.adtidy.org
-185.76.9.15 filters.adtidy.org
-195.181.175.16 filters.adtidy.org
-195.181.175.40 filters.adtidy.org
-195.181.175.41 filters.adtidy.org
-! Github网址链接加速
-20.27.177.113 github.com
-20.205.243.166 github.com
-20.248.137.48 github.com
-140.82.112.3 github.com
-140.82.112.4 github.com
-140.82.113.3 github.com
-140.82.113.4 github.com
-140.82.121.3 github.com
-140.82.121.4 github.com
-199.59.149.235 github.com
 ############################################################ Blocklist 相关 ############################################################
 # 允许项
 ! 修正免流骚流量站订阅无法更新问题
