@@ -1,3 +1,5 @@
 # Power By 52Mark
 # 修正brave搜索引擎无法连接问题
 @@||search.brave.com^$important
+# 修正DNS泄露测试相关链接
+@@||dnscheck.tools^$important
