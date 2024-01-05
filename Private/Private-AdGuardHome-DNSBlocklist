@@ -1,4 +1,14 @@
 # Power By 52Mark
+# 禁用原始规则
+||search.brave.com$badfilter
+||dnscheck.tools$badfilter
+
+
+
+
+
+
+
 # 修正brave搜索引擎无法连接问题
 @@||search.brave.com^$important
 # 修正DNS泄露测试相关链接
