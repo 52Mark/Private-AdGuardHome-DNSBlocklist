@@ -13,3 +13,7 @@
 @@||search.brave.com^$important
 # 修正DNS泄露测试相关链接
 @@||dnscheck.tools^$important
+# 修正免流骚流量站官网无法打开问题
+@@||sub.mlsao.top^$important
+# 修正免流骚流量站订阅无法下载问题
+@@||sub1.mlcat.tk^$important
