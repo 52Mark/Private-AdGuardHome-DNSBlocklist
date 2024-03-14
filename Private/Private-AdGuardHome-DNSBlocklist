@@ -2,7 +2,7 @@
 # 禁用原始规则
 ||search.brave.com$badfilter
 ||dnscheck.tools$badfilter
-
+||cubox.pro$badfilter
 
 
 
@@ -17,3 +17,5 @@
 @@||sub.mlsao.top^$important
 # 修正免流骚流量站订阅无法下载问题
 @@||sub1.mlcat.tk^$important
+# 修正cubox收藏无法连接问题
+@@||cubox.pro^$important
