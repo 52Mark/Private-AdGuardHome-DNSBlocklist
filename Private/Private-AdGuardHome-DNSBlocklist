@@ -8,6 +8,8 @@
 ||cubox.pro$badfilter
 # 导致多类.top域名无法连接
 ||top^$denyallow=caitlin.top|corriente.top|gdtot.top|nicenature.top|reminder.top|magocoro.top|castlevania.top|suiten.top|shucks.top|1stream.top|ambr.top|techblog.top|changlam10.top|changlam11.top|pdcdn1.top|mastodon.top|pressplay.top|chillx.top|strims.top|thedesk.top|audioforyou.top|vsdb.top|pegelinux.top|arjun.top$badfilter
+# 导致海盗湾磁力网站无法连接
+||thepiratebay.org^$badfilter
 # --------------------------------------------------------------------------------------------- 允许域名规则 --------------------------------------------------------------------------------------------- #
 # 修正brave搜索引擎无法连接问题
 @@||search.brave.com^$important
@@ -21,4 +23,6 @@
 @@||cubox.pro^$important
 # 修正Sun-Panel官网无法打开问题
 @@||sun-panel.top^$important
+# 修正海盗湾磁力网站无法打开问题
+@@||thepiratebay.org^$important
 # --------------------------------------------------------------------------------------------- 禁止域名规则 --------------------------------------------------------------------------------------------- #
