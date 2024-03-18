@@ -1,14 +1,14 @@
 # Power By 52Mark
-# 禁用原始规则
+# --------------------------------------------------------------------------------------------- 禁用原始规则 --------------------------------------------------------------------------------------------- #
+# 导致search.brave.com网站无法连接
 ||search.brave.com$badfilter
+# 导致dnscheck.tools网站无法连接
 ||dnscheck.tools$badfilter
+# 导致cubox.pro网站无法连接
 ||cubox.pro$badfilter
-
-
-
-
-
-
+# 导致多类.top域名无法连接
+||top^$denyallow=caitlin.top|corriente.top|gdtot.top|nicenature.top|reminder.top|magocoro.top|castlevania.top|suiten.top|shucks.top|1stream.top|ambr.top|techblog.top|changlam10.top|changlam11.top|pdcdn1.top|mastodon.top|pressplay.top|chillx.top|strims.top|thedesk.top|audioforyou.top|vsdb.top|pegelinux.top|arjun.top$badfilter
+# --------------------------------------------------------------------------------------------- 允许域名规则 --------------------------------------------------------------------------------------------- #
 # 修正brave搜索引擎无法连接问题
 @@||search.brave.com^$important
 # 修正DNS泄露测试相关链接
@@ -17,5 +17,8 @@
 @@||sub.mlsao.top^$important
 # 修正免流骚流量站订阅无法下载问题
 @@||sub1.mlcat.tk^$important
-# 修正cubox收藏无法连接问题
+# 修正cubox.pro收藏无法连接问题
 @@||cubox.pro^$important
+# 修正Sun-Panel官网无法打开问题
+@@||sun-panel.top^$important
+# --------------------------------------------------------------------------------------------- 禁止域名规则 --------------------------------------------------------------------------------------------- #
